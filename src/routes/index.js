@@ -12,7 +12,7 @@ import Cart from '../pages/cart';
 
 const Routes = () => {
     return (
-        <Router basename={process.env.PUBLIC_URL}>
+        <Router>
             <Switch>
                 <Route path='/about' component={About} />
                 <Route exact path='/' component={Store} />
