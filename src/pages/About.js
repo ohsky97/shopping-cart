@@ -9,7 +9,7 @@ const About = () => {
                 <h1>About</h1>
                 <p>This project was built for practice pruposes using<strong>Context API</strong> by React.</p>
 
-                <a className="btn btn-primary" href="https://github.com/ohsky97">
+                <a className="btn btn-primary" href="https://github.com/ohsky97/shopping-cart">
                     <GitHubIcon width={"18px"} />
                     <span className="ml-2 mr-2">Visit My Git</span>
                 </a>
