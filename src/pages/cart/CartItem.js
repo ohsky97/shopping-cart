@@ -4,6 +4,7 @@ import { CartContext } from '../../contexts/CartContext';
 
 import { formatNumber } from '../../helpers/utils';
 
+// 장바구니 추가 리스트 상세 UI
 const CartItem = ({product}) => {
 
     const { increase, decrease, removeProduct } = useContext(CartContext);

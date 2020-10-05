@@ -3,6 +3,7 @@ import ProductItem from './ProductItem';
 import { ProductsContext } from '../../contexts/ProductsContext';
 import styles from './ProductsGrid.module.scss';
 
+// store 상품 리스트 출력
 const ProductsGrid = () => {
     const {products} = useContext(ProductsContext);
 

@@ -2,7 +2,7 @@ import React, {useContext} from 'react';
 import {CartContext} from '../../contexts/CartContext';
 import CartItem from './CartItem';
 
-
+// 장바구니 리스트 출력
 const CartProducts = () => {
     const {cartItems} =useContext(CartContext);
 

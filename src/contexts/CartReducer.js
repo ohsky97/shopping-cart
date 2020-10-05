@@ -2,6 +2,7 @@ const Storage = (cartItems) => {
     localStorage.setItem('cart', JSON.stringify(cartItems.length > 0 ? cartItems: []));
 }
 
+// 장바구니 이벤트 조건 설정
 export const sumItems = cartItems => {
     Storage(cartItems);
     let itemCount = cartItems.reduce((total, product) => total + product.quantity, 0);

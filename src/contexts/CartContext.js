@@ -1,6 +1,8 @@
 import React, { createContext, useReducer } from 'react';
 import { CartReducer, sumItems } from './CartReducer';
 
+
+// 장바구니 이벤트 타입 설정(Store, Cart에서 쓰임)
 export const CartContext = createContext();
 
 const storage = localStorage.getItem('cart') ? JSON.parse(localStorage.getItem('cart')) : [];

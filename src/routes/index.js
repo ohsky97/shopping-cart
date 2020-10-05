@@ -12,6 +12,9 @@ import Cart from '../pages/cart';
 
 const Routes = () => {
     return (
+        // 그냥 라우터로 설정할 경우 호스트 할 시에 로컬 주소랑 일치하지 않아서 빈 화면이 출력(404 에러)
+        // basename={process.env.PUBLIC_URL} 모든 위치의 기본 URL을 설정하여
+        // homepage 주소와 통일
         <Router basename={process.env.PUBLIC_URL}>
             <Switch>
                 <Route path='/about' component={About} />

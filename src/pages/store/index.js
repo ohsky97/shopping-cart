@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from '../../components/Layout';
 import ProductGrid from './ProductsGrid';
 
+// store 메인 페이지
 const Store = () => {
     return (
         <Layout title="Store" description="This is the Store page.">

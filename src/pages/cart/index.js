@@ -5,6 +5,7 @@ import { CartContext } from '../../contexts/CartContext';
 import { formatNumber } from '../../helpers/utils';
 import { Link } from 'react-router-dom';
 
+// 장바구니 메인 화면
 const Cart = () => {
 
     const { total, cartItems, itemCount, clearCart, checkout, handleCheckout } = useContext(CartContext);
@@ -35,6 +36,7 @@ const Cart = () => {
                         }
                     </div>
                     {
+                        // 장바구니 구매여부 박스
                         cartItems.length > 0 && 
                         <div className="col-sm-3 p-3">
                             <div className="card card-body">
