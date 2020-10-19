@@ -12,8 +12,6 @@
 
 * react-helmet을 사용하여 각 route(store, about, cart)마다 html head를 설정할 수 있었고, 이는 SEO최적화 적용된다는 것을 알게 되었습니다.
 
-* axios
-
 
 
 
